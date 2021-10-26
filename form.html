@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <title>signup form</title>
+        <style>
+            body{
+                background-color:rgb(247, 235, 187);
+                border-color:  black;
+                color: rgb(116, 104, 104);
+                font-style: initial;
+                border-style: dotted;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="thankyou.html" method="POST"  >
+            <fieldset> 
+                <legend>Personal info</legend>
+            Enroll No.
+            <input type="text" name=" user"> 
+            <br><br>
+            Password:
+            <input type="password" name=" pass">
+            <br><br>
+            Gender:
+            <br>
+            <input type="radio" name="gender" value="male">male<br>
+            <input type="radio" name="gender" value="female">female<br>
+            <input type="radio" name="gender" value="other">other<br>
+            <br>
+            Email:
+            <input type="Email" name="mail" >
+            <br><br>
+            Mobile:
+            <input type="tel" name="phone">
+            <br><br>
+            city:
+            <select name="city">
+                <optgroup label="Madhya pradesh">
+                <option>ujjain</option>
+                <option>indore</option>
+                <option>bhopal</option>
+                </optgroup>
+
+                <optgroup label="uttar Pradesh">
+                <option>madhura</option>
+                <option>vrandhawan</option>
+                <option>Agra</option>
+                </optgroup>
+           </select>
+        </fieldset><br>
+        <fieldset>
+            <legend>detail</legend>
+           <br>
+            File Search:
+            <br>
+           <input type="file"" name="search">
+           <br><br>
+        <details>
+            First name:
+            <input type="text" name="name" required><br><br>
+            Last Name:
+            <input type="text" name="name"><br><br>
+            Birth of Date:
+            <input type="date" name="DOB"><br><br>
+            Time:
+            <input type="time" name="TIME"><br><br>
+        </details>
+        
+    </fieldset>
+    <input type="checkbox" name="check 1"> I agree with all terms and conditions.
+    <input type="checkbox" name="check 2"> Al information are correct to my. 
+    <input type="submit" name="sign up">
+        </form>
+    </body>
+</html>
